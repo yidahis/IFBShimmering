@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC921AF1-B278-4368-BB29-3750B44D4A33</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IFBShimmeringDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C82FBFE9-1C36-4D5D-A71B-4D63C753ECE2</key>
+		<string>https://github.com/yidahis/IFBShimmering.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IFBShimmeringDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C82FBFE9-1C36-4D5D-A71B-4D63C753ECE2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yidahis/IFBShimmering.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C82FBFE9-1C36-4D5D-A71B-4D63C753ECE2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C82FBFE9-1C36-4D5D-A71B-4D63C753ECE2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IFBShimmering</string>
+		</dict>
+	</array>
+</dict>
+</plist>

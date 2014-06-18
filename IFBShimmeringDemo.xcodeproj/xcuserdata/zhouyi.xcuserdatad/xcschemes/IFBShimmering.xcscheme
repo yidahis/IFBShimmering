@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5AE74B0B1951846900B02DCD"
-               BuildableName = "IFBShimmering.app"
-               BlueprintName = "IFBShimmering"
-               ReferencedContainer = "container:IFBShimmering.xcodeproj">
+               BuildableName = "IFBShimmeringDemo.app"
+               BlueprintName = "IFBShimmeringDemo"
+               ReferencedContainer = "container:IFBShimmeringDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5AE74B2F1951846900B02DCD"
-               BuildableName = "IFBShimmeringTests.xctest"
-               BlueprintName = "IFBShimmeringTests"
-               ReferencedContainer = "container:IFBShimmering.xcodeproj">
+               BuildableName = "IFBShimmeringDemoTests.xctest"
+               BlueprintName = "IFBShimmeringDemoTests"
+               ReferencedContainer = "container:IFBShimmeringDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AE74B0B1951846900B02DCD"
-            BuildableName = "IFBShimmering.app"
-            BlueprintName = "IFBShimmering"
-            ReferencedContainer = "container:IFBShimmering.xcodeproj">
+            BuildableName = "IFBShimmeringDemo.app"
+            BlueprintName = "IFBShimmeringDemo"
+            ReferencedContainer = "container:IFBShimmeringDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AE74B0B1951846900B02DCD"
-            BuildableName = "IFBShimmering.app"
-            BlueprintName = "IFBShimmering"
-            ReferencedContainer = "container:IFBShimmering.xcodeproj">
+            BuildableName = "IFBShimmeringDemo.app"
+            BlueprintName = "IFBShimmeringDemo"
+            ReferencedContainer = "container:IFBShimmeringDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5AE74B0B1951846900B02DCD"
-            BuildableName = "IFBShimmering.app"
-            BlueprintName = "IFBShimmering"
-            ReferencedContainer = "container:IFBShimmering.xcodeproj">
+            BuildableName = "IFBShimmeringDemo.app"
+            BlueprintName = "IFBShimmeringDemo"
+            ReferencedContainer = "container:IFBShimmeringDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

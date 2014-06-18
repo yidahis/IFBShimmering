@@ -14,7 +14,6 @@
 		5AE74B1C1951846900B02DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE74B1B1951846900B02DCD /* main.m */; };
 		5AE74B201951846900B02DCD /* IFBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE74B1F1951846900B02DCD /* IFBAppDelegate.m */; };
 		5AE74B231951846900B02DCD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE74B211951846900B02DCD /* Main_iPhone.storyboard */; };
-		5AE74B261951846900B02DCD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE74B241951846900B02DCD /* Main_iPad.storyboard */; };
 		5AE74B291951846900B02DCD /* IFBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE74B281951846900B02DCD /* IFBViewController.m */; };
 		5AE74B2B1951846900B02DCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE74B2A1951846900B02DCD /* Images.xcassets */; };
 		5AE74B321951846900B02DCD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE74B311951846900B02DCD /* XCTest.framework */; };
@@ -39,24 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5AE74B0C1951846900B02DCD /* IFBShimmering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFBShimmering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE74B0C1951846900B02DCD /* IFBShimmeringDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFBShimmeringDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE74B0F1951846900B02DCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5AE74B111951846900B02DCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5AE74B131951846900B02DCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5AE74B171951846900B02DCD /* IFBShimmering-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFBShimmering-Info.plist"; sourceTree = "<group>"; };
+		5AE74B171951846900B02DCD /* IFBShimmeringDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFBShimmeringDemo-Info.plist"; sourceTree = "<group>"; };
 		5AE74B191951846900B02DCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AE74B1B1951846900B02DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5AE74B1D1951846900B02DCD /* IFBShimmering-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		5AE74B1D1951846900B02DCD /* IFBShimmeringDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFBShimmeringDemo-Prefix.pch"; sourceTree = "<group>"; };
 		5AE74B1E1951846900B02DCD /* IFBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFBAppDelegate.h; sourceTree = "<group>"; };
 		5AE74B1F1951846900B02DCD /* IFBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFBAppDelegate.m; sourceTree = "<group>"; };
 		5AE74B221951846900B02DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5AE74B251951846900B02DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5AE74B271951846900B02DCD /* IFBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFBViewController.h; sourceTree = "<group>"; };
 		5AE74B281951846900B02DCD /* IFBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFBViewController.m; sourceTree = "<group>"; };
 		5AE74B2A1951846900B02DCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5AE74B301951846900B02DCD /* IFBShimmeringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IFBShimmeringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE74B301951846900B02DCD /* IFBShimmeringDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IFBShimmeringDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE74B311951846900B02DCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5AE74B391951846900B02DCD /* IFBShimmeringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFBShimmeringTests-Info.plist"; sourceTree = "<group>"; };
+		5AE74B391951846900B02DCD /* IFBShimmeringDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFBShimmeringDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5AE74B3B1951846900B02DCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AE74B3D1951846900B02DCD /* IFBShimmeringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFBShimmeringTests.m; sourceTree = "<group>"; };
 		5AE74B481951847A00B02DCD /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
@@ -107,8 +105,8 @@
 		5AE74B0D1951846900B02DCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AE74B0C1951846900B02DCD /* IFBShimmering.app */,
-				5AE74B301951846900B02DCD /* IFBShimmeringTests.xctest */,
+				5AE74B0C1951846900B02DCD /* IFBShimmeringDemo.app */,
+				5AE74B301951846900B02DCD /* IFBShimmeringDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,7 +129,6 @@
 				5AE74B1E1951846900B02DCD /* IFBAppDelegate.h */,
 				5AE74B1F1951846900B02DCD /* IFBAppDelegate.m */,
 				5AE74B211951846900B02DCD /* Main_iPhone.storyboard */,
-				5AE74B241951846900B02DCD /* Main_iPad.storyboard */,
 				5AE74B271951846900B02DCD /* IFBViewController.h */,
 				5AE74B281951846900B02DCD /* IFBViewController.m */,
 				5AE74B2A1951846900B02DCD /* Images.xcassets */,
@@ -143,10 +140,10 @@
 		5AE74B161951846900B02DCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5AE74B171951846900B02DCD /* IFBShimmering-Info.plist */,
+				5AE74B171951846900B02DCD /* IFBShimmeringDemo-Info.plist */,
 				5AE74B181951846900B02DCD /* InfoPlist.strings */,
 				5AE74B1B1951846900B02DCD /* main.m */,
-				5AE74B1D1951846900B02DCD /* IFBShimmering-Prefix.pch */,
+				5AE74B1D1951846900B02DCD /* IFBShimmeringDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,7 +160,7 @@
 		5AE74B381951846900B02DCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5AE74B391951846900B02DCD /* IFBShimmeringTests-Info.plist */,
+				5AE74B391951846900B02DCD /* IFBShimmeringDemoTests-Info.plist */,
 				5AE74B3A1951846900B02DCD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -188,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AE74B0B1951846900B02DCD /* IFBShimmering */ = {
+		5AE74B0B1951846900B02DCD /* IFBShimmeringDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AE74B411951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmering" */;
+			buildConfigurationList = 5AE74B411951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmeringDemo" */;
 			buildPhases = (
 				5AE74B081951846900B02DCD /* Sources */,
 				5AE74B091951846900B02DCD /* Frameworks */,
@@ -200,14 +197,14 @@
 			);
 			dependencies = (
 			);
-			name = IFBShimmering;
+			name = IFBShimmeringDemo;
 			productName = IFBShimmering;
-			productReference = 5AE74B0C1951846900B02DCD /* IFBShimmering.app */;
+			productReference = 5AE74B0C1951846900B02DCD /* IFBShimmeringDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5AE74B2F1951846900B02DCD /* IFBShimmeringTests */ = {
+		5AE74B2F1951846900B02DCD /* IFBShimmeringDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AE74B441951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmeringTests" */;
+			buildConfigurationList = 5AE74B441951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmeringDemoTests" */;
 			buildPhases = (
 				5AE74B2C1951846900B02DCD /* Sources */,
 				5AE74B2D1951846900B02DCD /* Frameworks */,
@@ -218,9 +215,9 @@
 			dependencies = (
 				5AE74B361951846900B02DCD /* PBXTargetDependency */,
 			);
-			name = IFBShimmeringTests;
+			name = IFBShimmeringDemoTests;
 			productName = IFBShimmeringTests;
-			productReference = 5AE74B301951846900B02DCD /* IFBShimmeringTests.xctest */;
+			productReference = 5AE74B301951846900B02DCD /* IFBShimmeringDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5AE74B071951846900B02DCD /* Build configuration list for PBXProject "IFBShimmering" */;
+			buildConfigurationList = 5AE74B071951846900B02DCD /* Build configuration list for PBXProject "IFBShimmeringDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -251,8 +248,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AE74B0B1951846900B02DCD /* IFBShimmering */,
-				5AE74B2F1951846900B02DCD /* IFBShimmeringTests */,
+				5AE74B0B1951846900B02DCD /* IFBShimmeringDemo */,
+				5AE74B2F1951846900B02DCD /* IFBShimmeringDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +259,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE74B261951846900B02DCD /* Main_iPad.storyboard in Resources */,
 				5AE74B541951847A00B02DCD /* yimain.bundle in Resources */,
 				5AE74B2B1951846900B02DCD /* Images.xcassets in Resources */,
 				5AE74B231951846900B02DCD /* Main_iPhone.storyboard in Resources */,
@@ -307,7 +303,7 @@
 /* Begin PBXTargetDependency section */
 		5AE74B361951846900B02DCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AE74B0B1951846900B02DCD /* IFBShimmering */;
+			target = 5AE74B0B1951846900B02DCD /* IFBShimmeringDemo */;
 			targetProxy = 5AE74B351951846900B02DCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -327,14 +323,6 @@
 				5AE74B221951846900B02DCD /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5AE74B241951846900B02DCD /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AE74B251951846900B02DCD /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		5AE74B3A1951846900B02DCD /* InfoPlist.strings */ = {
@@ -426,9 +414,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IFBShimmering/IFBShimmering-Prefix.pch";
-				INFOPLIST_FILE = "IFBShimmering/IFBShimmering-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "IFBShimmering/IFBShimmeringDemo-Prefix.pch";
+				INFOPLIST_FILE = "IFBShimmering/IFBShimmeringDemo-Info.plist";
+				PRODUCT_NAME = IFBShimmeringDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -439,9 +427,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IFBShimmering/IFBShimmering-Prefix.pch";
-				INFOPLIST_FILE = "IFBShimmering/IFBShimmering-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "IFBShimmering/IFBShimmeringDemo-Prefix.pch";
+				INFOPLIST_FILE = "IFBShimmering/IFBShimmeringDemo-Info.plist";
+				PRODUCT_NAME = IFBShimmeringDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,8 +449,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "IFBShimmeringTests/IFBShimmeringTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "IFBShimmeringTests/IFBShimmeringDemoTests-Info.plist";
+				PRODUCT_NAME = IFBShimmeringDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -479,8 +467,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IFBShimmering/IFBShimmering-Prefix.pch";
-				INFOPLIST_FILE = "IFBShimmeringTests/IFBShimmeringTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "IFBShimmeringTests/IFBShimmeringDemoTests-Info.plist";
+				PRODUCT_NAME = IFBShimmeringDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -489,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AE74B071951846900B02DCD /* Build configuration list for PBXProject "IFBShimmering" */ = {
+		5AE74B071951846900B02DCD /* Build configuration list for PBXProject "IFBShimmeringDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AE74B3F1951846900B02DCD /* Debug */,
@@ -498,21 +486,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AE74B411951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmering" */ = {
+		5AE74B411951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmeringDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AE74B421951846900B02DCD /* Debug */,
 				5AE74B431951846900B02DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5AE74B441951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmeringTests" */ = {
+		5AE74B441951846900B02DCD /* Build configuration list for PBXNativeTarget "IFBShimmeringDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AE74B451951846900B02DCD /* Debug */,
 				5AE74B461951846900B02DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

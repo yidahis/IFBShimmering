@@ -7,9 +7,13 @@ IFBShimmering is loading indicator use facebook/Shimmer.
 
 ## Usage
 	show 
+	```objective-c
 	 [IFBShimmeringViewExtend showInView:self.view];
+	 ```
 	 dismiss
+	 ```objective-c
 	 [IFBShimmeringViewExtend dismiss];
+	 ```
 
 It's so easy. 
 

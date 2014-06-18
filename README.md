@@ -1,7 +1,7 @@
 IFBShimmering
 =============
 
-IFBShimmering is loading indicator use facebook/Shimmer.
+IFBShimmering is loading indicator use [facebook/Shimmer](https://github.com/facebook/Shimmer).
 
 ![Shimmer](https://github.com/yidahis/IFBShimmering/blob/master/IFBShimmer.gif?raw=true)
 

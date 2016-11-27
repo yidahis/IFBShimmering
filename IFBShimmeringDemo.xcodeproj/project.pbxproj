@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AB305F41DEADA9500BD98B1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB305F21DEADA9500BD98B1 /* Launch Screen.storyboard */; };
 		5AE74B101951846900B02DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE74B0F1951846900B02DCD /* Foundation.framework */; };
 		5AE74B121951846900B02DCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE74B111951846900B02DCD /* CoreGraphics.framework */; };
 		5AE74B141951846900B02DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE74B131951846900B02DCD /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AB305F31DEADA9500BD98B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5AE74B0C1951846900B02DCD /* IFBShimmeringDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFBShimmeringDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE74B0F1951846900B02DCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5AE74B111951846900B02DCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +133,7 @@
 				5AE74B211951846900B02DCD /* Main_iPhone.storyboard */,
 				5AE74B271951846900B02DCD /* IFBViewController.h */,
 				5AE74B281951846900B02DCD /* IFBViewController.m */,
+				5AB305F21DEADA9500BD98B1 /* Launch Screen.storyboard */,
 				5AE74B2A1951846900B02DCD /* Images.xcassets */,
 				5AE74B161951846900B02DCD /* Supporting Files */,
 			);
@@ -262,6 +265,7 @@
 				5AE74B541951847A00B02DCD /* yimain.bundle in Resources */,
 				5AE74B2B1951846900B02DCD /* Images.xcassets in Resources */,
 				5AE74B231951846900B02DCD /* Main_iPhone.storyboard in Resources */,
+				5AB305F41DEADA9500BD98B1 /* Launch Screen.storyboard in Resources */,
 				5AE74B1A1951846900B02DCD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5AB305F21DEADA9500BD98B1 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB305F31DEADA9500BD98B1 /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
 		5AE74B181951846900B02DCD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

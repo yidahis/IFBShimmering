@@ -10,7 +10,7 @@
 #import "FBShimmeringView.h"
 @implementation IFBShimmeringViewExtend
 {
-    UIImageView *imgView;
+    UIImageView *_imgView;
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -22,7 +22,6 @@
     return self;
 }
 
-
 -(void)layoutSubviews{
     FBShimmeringView *shimmeringView = [[FBShimmeringView alloc] initWithFrame:[super frame]];
     [shimmeringView setCenter:CGPointMake(self.center.x, self.center.y)];
@@ -30,9 +29,7 @@
     shimmeringView.shimmeringBeginFadeDuration = 0.3;
     shimmeringView.shimmeringOpacity = 0.3;
     [self addSubview:shimmeringView];
-    
-    
-    
+
     UILabel *logoLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 240, 40)];
     logoLabel.text = @"努力加载中。。。";
     if (self.title) {
@@ -45,15 +42,10 @@
     logoLabel.backgroundColor = [UIColor clearColor];
     shimmeringView.contentView = logoLabel;
     
-    
-    imgView= [[UIImageView alloc]initWithFrame:CGRectMake([super frame].size.width/2-48, [super frame].size.height/2-72-10, 72, 72)];
-
-    [imgView setImage:[UIImage imageNamed:@"yimain.bundle/img/loading_master"]];
-    [self addSubview:imgView];
-    
-    
+    _imgView= [[UIImageView alloc]initWithFrame:CGRectMake([super frame].size.width/2-48, [super frame].size.height/2-72-10, 72, 72)];
+    [_imgView setImage:[UIImage imageNamed:@"yimain.bundle/img/loading_master"]];
+    [self addSubview:_imgView];
 }
-
 
 + (IFBShimmeringViewExtend*)sharedView {
     static dispatch_once_t once;
@@ -73,10 +65,8 @@
     [fbs removeFromSuperview];
 }
 
-
-
 -(void)setContentImg:(UIImage *)img{
-    [imgView setImage:img];
+    [_imgView setImage:img];
     
 }
 

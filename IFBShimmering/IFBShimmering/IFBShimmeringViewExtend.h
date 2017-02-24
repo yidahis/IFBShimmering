@@ -9,14 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface IFBShimmeringViewExtend : UIView
-
-@property (nonatomic,strong) NSString *title;
+@property (nonatomic,copy) NSString *title;
 @property (nonatomic,strong) UIImage *img;
-
-
+/*
+ *
+ *
+ **/
 +(IFBShimmeringViewExtend*)showInView:(UIView*)superView;
-+(void)dismiss;
 
++(void)dismiss;
 
 -(void)setContentImg:(UIImage *)img;
 @end
